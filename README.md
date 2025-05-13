@@ -38,7 +38,7 @@ Uninformed Search bao gồm các thuật toán như BFS, DFS, UCS, và IDS. Dư�
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Không Thông Tin](access/Uninformed Search.png)
+![Biểu đồ Tìm kiếm Không Thông Tin](access/Uninformed%20Search.png)
 
 ### Phân tích
 
@@ -63,7 +63,7 @@ Tìm kiếm Có Thông Tin bao gồm các thuật toán như A\*, Tìm kiếm T�
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Có Thông Tin](access/Informed Search.png)
+![Biểu đồ Tìm kiếm Có Thông Tin](access/Informed%20Search.png)
 
 ### Phân tích
 
@@ -90,7 +90,7 @@ Tìm kiếm Cục Bộ bao gồm các thuật toán như Leo Đồi (Hill Climbi
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Cục Bộ](access/Local Search.png)
+![Biểu đồ Tìm kiếm Cục Bộ](access/Local%20Search.png)
 
 ### Phân tích
 
