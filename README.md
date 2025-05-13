@@ -114,7 +114,7 @@ Tìm kiếm Phức Tạp bao gồm ba thuật toán nâng cao cùng với các h
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Phức Tạp](access/Complex Environments.png)
+![Biểu đồ Tìm kiếm Phức Tạp](access/Complex%20Environments.png)
 
 ### Phân tích
 
