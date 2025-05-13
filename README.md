@@ -38,7 +38,7 @@ Uninformed Search bao gồm các thuật toán như BFS, DFS, UCS, và IDS. Dư�
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Không Thông Tin](assets/uninformed.png)
+![Biểu đồ Tìm kiếm Không Thông Tin](access/Uninformed Search.png)
 
 ### Phân tích
 
@@ -63,7 +63,7 @@ Tìm kiếm Có Thông Tin bao gồm các thuật toán như A\*, Tìm kiếm T�
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Có Thông Tin](assets/informed.png)
+![Biểu đồ Tìm kiếm Có Thông Tin](access/Informed Search.png)
 
 ### Phân tích
 
@@ -90,7 +90,7 @@ Tìm kiếm Cục Bộ bao gồm các thuật toán như Leo Đồi (Hill Climbi
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Cục Bộ](assets/local.png)
+![Biểu đồ Tìm kiếm Cục Bộ](access/Local Search.png)
 
 ### Phân tích
 
@@ -114,7 +114,7 @@ Tìm kiếm Phức Tạp bao gồm ba thuật toán nâng cao cùng với các h
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ Tìm kiếm Phức Tạp](assets/complex.png)
+![Biểu đồ Tìm kiếm Phức Tạp](access/Complex Environments.png)
 
 ### Phân tích
 
@@ -136,7 +136,7 @@ CSPs bao gồm các thuật toán như Quay lui (Backtracking), Kiểm tra Tính
 
 ### Biểu đồ Hiệu suất
 
-![Biểu đồ CSP](assets/CSPs.png)
+![Biểu đồ CSP](access/CSPs.png)
 
 ### Phân tích
 
