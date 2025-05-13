@@ -61,7 +61,7 @@ Tìm kiếm Có Thông Tin bao gồm các thuật toán như A\*, Tìm kiếm T�
 | IDA\*          | ![IDA](access/IDA.gif)      |
 | GRE            | ![GRE](access/GRE.gif)      |
 
-### Biểu đồ Hiệu suất
+### Biểu đồ Time(ms) và Steps
 
 ![Biểu đồ Tìm kiếm Có Thông Tin](access/Informed%20Search.png)
 
@@ -88,7 +88,7 @@ Tìm kiếm Cục Bộ bao gồm các thuật toán như Leo Đồi (Hill Climbi
 | Simulated Annealing     | ![SA](access/SA_gia_kim.gif)  |
 | Genetic Algorithm       | ![GA](access/GA.gif)          |
 
-### Biểu đồ Hiệu suất
+### Biểu đồ Time(ms) và Steps
 
 ![Biểu đồ Tìm kiếm Cục Bộ](access/Local%20Search.png)
 
@@ -112,7 +112,7 @@ Tìm kiếm Phức Tạp bao gồm ba thuật toán nâng cao cùng với các h
 | Search with partial obs | ![PO](access/Patilly_obs.gif)        |
 | And or search           | ![AO](access/And_or_search.gif)      |
 
-### Biểu đồ Hiệu suất
+### Biểu đồ Time(ms) và Steps
 
 ![Biểu đồ Tìm kiếm Phức Tạp](access/Complex%20Environments.png)
 
@@ -134,7 +134,7 @@ CSPs bao gồm các thuật toán như Quay lui (Backtracking), Kiểm tra Tính
 | -------------------------- | ------------------------------------- |
 | Backtracking (simple)      | ![Backtrack](access/Backtracking.gif) |
 
-### Biểu đồ Hiệu suất
+### Biểu đồ Time(ms) và Steps
 
 ![Biểu đồ CSP](access/CSPs.png)
 
