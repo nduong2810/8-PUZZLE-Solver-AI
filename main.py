@@ -48,7 +48,7 @@ def main():
     pygame.display.set_caption("8 Puzzle - Thuật toán + Animation")
 
     # Lưu trạng thái ban đầu của ma trận A
-    INITIAL_STATE_A = [[1, 8, 0], [4, 3, 2], [7, 6, 5]]
+    INITIAL_STATE_A = [[1, 2, 3], [5, 0, 6], [4, 7, 8]]
     puzzleA = Puzzle(INITIAL_STATE_A)
     puzzleB = Puzzle([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
     historyA = [puzzleA.copy()]
@@ -102,7 +102,7 @@ def main():
         
         try:
             module = importlib.import_module(algo_name)
-            start_time = time.time()
+            start_time = time.perf_counter()
             
             # Chạy thuật toán trên ma trận B nếu là Backtracking
             if algo_name == "backtracking":
@@ -120,7 +120,7 @@ def main():
                 puzzle = puzzleA
                 history_rect = buttons['historyA']
             
-            end_time = time.time()
+            end_time = time.perf_counter()
             execution_time = end_time - start_time
             
             # Kiểm tra cả trường hợp steps là None hoặc danh sách rỗng
@@ -152,7 +152,11 @@ def main():
                 
                 # Hiển thị thông tin về thời gian và số bước
                 font = pygame.font.Font(None, 36)
-                time_text = font.render(f"Time: {execution_time:.2f}s", True, (0, 255, 0))
+                if execution_time < 1:
+                    time_str = f"Time: {execution_time*1000:.2f} ms"
+                else:
+                    time_str = f"Time: {execution_time:.4f} s"
+                time_text = font.render(time_str, True, (0, 255, 0))
                 steps_text = font.render(f"Steps: {len(steps)}", True, (0, 255, 0))
                 
                 # Tính toán vị trí dưới ma trận tương ứng

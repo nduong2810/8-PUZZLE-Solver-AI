@@ -9,9 +9,11 @@ def solve(puzzle: Puzzle):
     current = puzzle.copy()
     path = [current.copy()]
     T = 100.0
-    T_min = 1e-3
-    alpha = 0.95
-    while T > T_min:
+    T_min = 1e-6
+    alpha = 0.90
+    max_steps = 10000
+    steps = 0
+    while T > T_min and steps < max_steps:
         x0, y0 = current.find_zero()
         neighbors = []
         for dx, dy in [(-1,0),(1,0),(0,-1),(0,1)]:
@@ -30,4 +32,5 @@ def solve(puzzle: Puzzle):
             if current.state == GOAL_STATE:
                 return path
         T *= alpha
-    return path 
+        steps += 1
+    return None 
