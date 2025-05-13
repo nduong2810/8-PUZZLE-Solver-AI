@@ -177,7 +177,7 @@ Học Tăng Cường (Reinforcement Learning - RL) áp dụng agent học qua th
 
 | Tên thuật toán | Hình ảnh                            |
 | -------------- | ----------------------------------- |
-| Q-Learning     | ![Q-Learning](assets/Q_learning.gif) |
+| Q-Learning     | ![Q-Learning](access/Q_learning.gif) |
 
 
 ### Phân tích
