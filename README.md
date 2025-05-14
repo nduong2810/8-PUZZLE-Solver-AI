@@ -201,3 +201,38 @@ RL huấn luyện agent qua phần thưởng, phù hợp với bài toán độn
 ![CT](access/CT.png)
 
 - `Q-Learning`: Thuật toán Q-Learning học bảng Q thông qua việc thử nghiệm trên môi trường. Với bài toán 8-puzzle, do không gian trạng thái hợp lệ lớn (181,440 trạng thái), tốc độ học bị chậm và cần số lượng episode rất lớn để hội tụ.Tuy nhiên, do tính chất rời rạc, không tuần tự của 8-puzzle, Q-Learning vẫn không đảm bảo tìm được giải pháp tối ưu, nhưng thể hiện được tiềm năng linh hoạt trong môi trường thay đổi hoặc không xác định
+
+## 📥 Hướng dẫn tải và chạy dự án
+
+### 1. Cài đặt Python
+
+- Yêu cầu: **Python 3.8+**
+- Kiểm tra phiên bản đã cài:
+python --version
+
+### 2. Clone dự án từ GitHub
+
+Cách 1: Clone bằng Git (khuyên dùng)
+- `git clone https://github.com/nduong2810/8-PUZZLE-Solver-AI.git`
+- `cd 8-PUZZLE-Solver-AI`
+
+Cách 2: Tải thủ công
+-Truy cập GitHub: https://github.com/nduong2810/8-PUZZLE-Solver-AI`
+
+-Nhấn nút Code → Download ZIP`
+
+-Mở thư mục chứa mã nguồn`
+
+-Giải nén tệp ZIP
+
+### 3. Cài thư viện phụ thuộc:
+
+- Nếu có file requirements.txt, chạy: pip install -r requirements.txt
+
+- Nếu không có, cài thủ công: pip install pygame numpy, ....`
+
+### 4. Chạy chương trình:
+
+python main.py
+
+### Nếu có thắc mắc hay đóng góp hãy gửi mail duongboil5@gmail.com. Xin cảm ơn
