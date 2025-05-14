@@ -140,7 +140,7 @@ Search in Complex Environment là nhóm thuật toán xử lý các điều ki�
 
 ## Bài toán Hài Hòa Ràng Buộc (CSPs)
 
-CSPs bao gồm các thuật toán như Quay lui (Backtracking). Dưới đây là các hình ảnh trực quan.
+CSPs bao gồm các thuật toán như Quay lui (Backtracking), AC-3(Đang phát triển). Dưới đây là các hình ảnh trực quan.
 ### Hình ảnh Trực quan
 
 | Tên thuật toán             | Hình ảnh                              |
@@ -200,4 +200,4 @@ RL huấn luyện agent qua phần thưởng, phù hợp với bài toán độn
 
 ![CT](access/CT.png)
 
-- `Q-Learning`: Học bảng Q qua thử nghiệm, hiệu quả với không gian nhỏ. Với 8 puzzle, tốc độ học chậm do không gian trạng thái lớn (181,440 trạng thái khả thi), cần nhiều lần lặp. Không đảm bảo tối ưu như A\*, nhưng linh hoạt với môi trường thay đổi. Biểu đồ ở trên nêu lên so sánh trực quan về Q-learning-first với 2000 episode ban đầu và Q-learning nâng cao hơn với việc tăng số episode lên 50000, tăng epsilon cho khả năng khám phá ban đầu tốt hơn,... và đã mang lại hiệu suất tốt hơn hẳn. Tuy nhiên vẫn có thể cải thiện thêm.
+- `Q-Learning`: Thuật toán Q-Learning học bảng Q thông qua việc thử nghiệm trên môi trường. Với bài toán 8-puzzle, do không gian trạng thái hợp lệ lớn (181,440 trạng thái), tốc độ học bị chậm và cần số lượng episode rất lớn để hội tụ.Tuy nhiên, do tính chất rời rạc, không tuần tự của 8-puzzle, Q-Learning vẫn không đảm bảo tìm được giải pháp tối ưu, nhưng thể hiện được tiềm năng linh hoạt trong môi trường thay đổi hoặc không xác định
