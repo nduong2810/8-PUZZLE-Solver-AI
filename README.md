@@ -213,8 +213,7 @@ python --version
 ### 2. Clone dự án từ GitHub
 
 Cách 1: Clone bằng Git (khuyên dùng)
-- `git clone https://github.com/nduong2810/8-PUZZLE-Solver-AI.git`
-- `cd 8-PUZZLE-Solver-AI`
+- `https://github.com/nduong2810/8-PUZZLE-Solver-AI.git`
 
 Cách 2: Tải thủ công
 -Truy cập GitHub: https://github.com/nduong2810/8-PUZZLE-Solver-AI`
